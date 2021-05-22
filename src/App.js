@@ -1,9 +1,10 @@
-import "./App.css";
+import React from "react";
+import Pathfind from "./Components/Pathfind";
 
 function App() {
   return (
-    <div className="App">
-      <h1>hello</h1>
+    <div>
+      <Pathfind />
     </div>
   );
 }
